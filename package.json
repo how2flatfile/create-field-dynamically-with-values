@@ -1,0 +1,23 @@
+{
+  "name": "gettingstarted",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "flatfile develop typescript/index.ts",
+    "deploy": "flatfile deploy typescript/index.ts",
+    "create-workbook": "bash ./scripts/create-workbook.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@flatfile/api": "1.6.3",
+    "@flatfile/listener": "0.3.19",
+    "axios": "^1.6.5",
+    "flatfile": "^3.5.12"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0"
+  }
+}
