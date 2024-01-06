@@ -63,4 +63,4 @@ _________________________________________________
 
 - On the top-right, click `Submit`. When you see the `Success` message, proceed to https://webhook.site/ 
 
-- Notice how all fields were sent to https://webhook.site/ , including the dynamically created `Custom Column` field
+- Notice how all fields were sent to https://webhook.site/ , including the dynamic `Custom Column` field
