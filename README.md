@@ -32,7 +32,7 @@ _________________________________________________
 ### Code Setup (valuable information for anyone)
 - Open the project that you just saved on your computer. Open `index.ts` file
 
-- On line 9, replace existing link inside `webhookReceiver` with your unique URL
+- On line 8, replace existing link inside `webhookReceiver` with your unique URL
   - Go to https://webhook.site/ , and copy `Your unique URL` from there
 
 - Open the terminal, and run the command `npm install`
@@ -49,18 +49,22 @@ _________________________________________________
 ### Test the workflow
 - Login to your dashboard at `platform.flatfile.com`
 
-- On the left panel, click `Portal`
+- On the left panel, select `App One` app. If you don't have it, click `+ Add an App`
+  - Ensure that your `App One` has `Namespace` set to `appOne`
 
-- Click on `Recent Sessions`, then on the top-right click on `+ Create New Session`
+- Select `App One` app in your left panel, then click `+ Create New Session` on the top right
 
 - Give your Session a name, and click `Enter` on your keyboard
+  - If a Space you just created doesn't automatically open in a new tab, click on its name
 
-- Click `Add file`, and upload `example_file.csv` that is inside your project
+- Click `Upload file`, and upload `example_file.csv` that is inside your project
 
 - All fields should be auto-mapped. If they are not, map them, and then click `Continue`
+  - `First Name` and `Last Name` fields must be mapped to create `Full Name` field dynamically
 
-- Notice hot `Custom Column` field with `Hello world` values was created dynamically
+- When Flatfile table updates with dynamic `Full Name` field you will see a modal appear. Click `Continue`
+  - Notice the `Full Name` field with values concatenated from `First Name` and `Last Name` fields
 
 - On the top-right, click `Submit`. When you see the `Success` message, proceed to https://webhook.site/ 
 
-- Notice how all fields were sent to https://webhook.site/ , including the dynamic `Custom Column` field
+- Notice how all fields were sent to https://webhook.site/ , including the dynamic `Full Name` field
