@@ -6,7 +6,7 @@ If you find any issues with this README, or the repo in general, please email me
 
 ## For visual learners
 
-If you want to just follow the video on how to get everything done, [here is a Loom video](https://www.loom.com/share/2d9280d8b2ad4be2b270425255b25f8e?sid=079ae2d0-9a2e-4d47-9d76-7bdc0e9238aa)
+If you want to just follow the video on how to get everything done, [here is a Loom video](https://www.loom.com/share/ca49c0f0facd4f31ad38d808b697115f?sid=5c4e2475-5d16-4e5e-a97c-4285fcd782d6)
 
 **IMPORTANT -** If you follow the video above to get everything set up, the information below is still valuable to you
 
@@ -35,9 +35,9 @@ _________________________________________________
 - On line 8, replace existing link inside `webhookReceiver` with your unique URL
   - Go to https://webhook.site/ , and copy `Your unique URL` from there
 
-- Open the terminal, and run the command `npm install`
+- Open the terminal, and run `npm install`
 
-- Run `npm outdated`. If any Flatfile-related packages are not on the latest, update them to the latest
+- Run `npm outdated`. If any Flatfile packages are not on the latest, update them to the latest
   - If you do update to the latest, run `npm outdated` again to ensure that update completed
 
 - Run `npx flatfile@latest deploy`. For authentication, I prefer to select `API Key`
